@@ -1,0 +1,221 @@
+<?php
+  session_start( ) ;
+   if(!isset($_SESSION["email"]) and  !isset($_SESSION["senha"]) )
+   {
+	   
+	   header("Location: index.php");
+	   exit ;
+   }else {
+	   
+	  
+	   
+	   
+   }
+
+?>
+
+
+<html>
+
+ <!--
+    LIBERAÇÃO GRIS
+    desenvolvido por Vando Alves De Jesus -2015 
+	vando.jesus@directlog.com.br (11) 9 6831-5270
+    -->
+<head>
+<meta charset="utf-8">
+<title>  Liberação  </title>
+<link href="estilo.css"  rel="stylesheet"  type="text/css" />
+
+
+<!-- codigo do javascript -->
+ <script type="text/javascript" src="java.js"/> 
+</script>  
+
+ </head>
+<body> 
+
+
+
+
+
+ 
+ 
+<p id="bodar-exterior">
+
+<!--tabela exterior --> 
+<table width="365" height="150"     >
+
+
+
+<!--tabela interior --> 
+ <table cellspacing="10" cellpadding="15" > 
+<tr> 
+    <td align="center">  
+	<img src="imagens/directlog.png"  width="380px"  height="110px"   /> 
+   	</td> 
+    <td align="center"> 
+       	<table  width="600px" height="30" cellspacing="2" cellpadding="5" border="2"> 
+       	<tr> 
+         
+
+
+
+
+ 	<td align="right"><b>DATA:  </b>       </td> 
+           	<td> <script> document.write( dia+ "/" +mes +"/"+ano) ;   </script>  </td> 
+       	</tr> 
+		
+       	<tr> 
+           	<td align="right" ><b>DOCA:  </b>        </td> 
+           	<td> <script> document.write(' '+doca); </script></td> 
+       	</tr> 
+		<tr> 
+           	<td align="right" > <b>HORÁRIO DA LIBERAÇÃO:   </b>       </td> 
+           	<td><script> document.write(ipmhoras); </script></td> 
+       	</tr>
+		<tr> 
+           	<td align="right"><b>DESTINO/CLIENTE:  </b>      </td> 
+           	<td> liberado &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </td> 
+       	</tr>
+       	
+		</table> 
+   	</td> 
+
+	
+	
+</tr> 
+</table>  
+
+<table  width="1052" height="30"  bgcolor="#ff0000" cellspacing=0 cellpadding=3 bordercolor="000000" border="2" >
+ <td> <center>  <h1> LIBERAÇÃO &nbsp; &nbsp;GRIS </h1> </color>  </center> </td>
+</table>  </Br>
+
+<span style="padding-left:185px"> <a id="p1">&nbsp;&nbsp;  CARREGAMENTO &nbsp;    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  DESCARREGAMENTO </a> </span> 
+
+<!--tabela da parte do quadradinhos-->
+
+<table width="800" height="40"     >
+<tr>  <td align="right" > TRANSFERENCIA:</td>
+    <td border="2">  <table border=1 cellspacing=0 cellpadding=2 bordercolor="000000"> 
+     <tr>  <td> <input type="text" name="sobrenome" size="1" "> </td> </tr> 
+</table>
+     
+    </td>
+
+	 <td align="right" >TRANSFERENCIA: </td>
+	 <td>  <table border=1 cellspacing=0 cellpadding=2 bordercolor="000000"> 
+<tr>  <td> <input type="text" name="sobrenome" size="1" "> </td> </tr> 
+</table> 
+     </td>
+	 
+	 </tr>
+ 
+<tr> <td align="right">CARGA COLETADA:</td>
+     <td> <table border=1 cellspacing=0 cellpadding=2 bordercolor="000000"> 
+<tr>  <td> <input type="text" name="sobrenome" size="1" "></td> </tr> 
+</table>
+     </td>
+	
+	<td align="right" > DEVULUÇÃO: </td>
+	<td> <table border=1 cellspacing=0 cellpadding=2 bordercolor="000000"> 
+<tr>  <td> <input type="text" name="sobrenome" size="1" "></td> </tr> 
+</table>
+      </td>
+	
+     </tr>
+
+<tr> <td align="right" >GAIOLAS:</td>  
+     <td> <table border=1 cellspacing=0 cellpadding=3 bordercolor="000000"> 
+<tr>  <td align="center"> <input type="text" name="sobrenome" size="1" "></td> </tr> 
+</table>  
+     </td>
+	 <td align="right" > VAZIO: </td>
+	 <td><table border=1 cellspacing=0 cellpadding=2 bordercolor="000000"> 
+<tr>  <td> <input type="text" name="sobrenome" size="1" "> </td> </tr> 
+</table>  
+     </td>
+	 </tr>
+
+</table>   
+
+
+
+
+ <table width="1020" height="150" align="center"  >
+ 
+<tr> <td >  <table  cellspacing=0 width="470" height="130" bordercolor="000000"> 
+     <!--parte do do chefe !-->
+	 <tr>  <td align="center" > 
+	 <table  cellspacing=0 width="450" height="120"  > 
+     <tr>  <td align="center"  > <table  cellspacing=0 width="440" height="0  > 
+     <tr>  <td align="center"  > <b> <h2>chefe de prevenção:  <h2> </b> </td>  </tr> 
+	</table>
+ </td> </tr> 
+	 <tr>  <td>  </td> </tr>
+	 <tr>  <td>   </td> </tr>
+	 <tr>  <td>   </td> </tr>
+	 
+</table> </td> </tr> 
+</table>
+     
+    </td> 
+
+	<!--parte do lacre !-->
+	 <td align="right" >  <table  cellspacing=0 width="470" height="130" bordercolor="000000"> 
+     <!--parte do do chefe !-->
+	 <tr>  <td align="center" > 
+	 <table  cellspacing=0 width="450" height="120"  > 
+     <tr>  <td align="center"  > <table  cellspacing=0 width="440" height="0  > 
+     <tr>  <td align="center"  > <b> <h2>lacre: <h2> </b> </td>  </tr> 
+	</table>
+ </td> </tr> 
+	 <tr>  <td align="center"> <h2><script> document.write(' ' +lacre); </script>  </h2></td> </tr>
+	 <tr>  <td>  </td> </tr>
+	 <tr>  <td>   </td> </tr>
+	 
+</table> </td> </tr> 
+</table>
+     </td>
+	 
+	 </tr>
+
+
+</table>  
+     </td>
+	 </tr>
+
+</table>      
+<!-- tabela dos dados -->
+ 	<table  width="1020px" height="20" cellspacing="2" cellpadding="5" border="2" align="center"> 
+       	<tr > 
+           	<td align="right"><b>TIPO DE CARRO: </b>       </td> 
+           <h2>	<td align="left" > <a id="p2"> <script> document.write(' ' +tipo) </script > </a>  </td> </h2>
+       	</tr> 
+       	<tr> 
+           	<td align="right"><b>PLACA DO VEÍCULO:  </b>        </td> 
+           	<td align="left"><a id="p2">  <script>  document.write(' '+veículo); </script> </a></td> 
+       	</tr> 
+		<tr> 
+           	<td align="right"> <b>MOTORISTA:   </b>       </td> 
+           	<td align="left"> <a id="p2"> <script> document.write(' ' +motorista); </script> </a></td> 
+       	</tr>
+		<tr> 
+           	<td align="right"> <b>CONFERENTE:  </b>      </td> 
+           	<td align="left"> <a id="p2"> <script> document.write(' ' +conferente); </script> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</a>
+        </td> 
+       	</tr>
+       	
+		</table> 
+		
+</p> </BR> </BR> </BR>
+ <table width="1055" height="15"  border=1 cellspacing=0 cellpadding=2 bordercolor="000000" > 
+<tr>  <td align="center" >  <form><p id="p2"> <a href="http://localhost/liberacaogris/liberacao.index" > Clique aqui para fazer uma nova liberação </p></td> 
+<td align="center" ><p id="p2"> &nbsp;&nbsp;  <input type="button" name="imprimir" value="Imprimir" onclick="window.print();"> </form> </p> </td> </tr> 
+</table>  
+
+
+
+ 
+</body>
+</html>
