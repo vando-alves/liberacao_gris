@@ -6,5 +6,6 @@ var tipo = prompt('Informe o tipo do carro');
 var placa = prompt('Informe a placa do veiculo');
 var motorista = prompt('Informe o nome do motorista');
 var conferente = prompt('Informe o nome do conferente');
-var conferente = prompt('Informe o lacre');
+var lacre = prompt('Informe o lacre');
+var veículo = prompt('Informe o veiculo');
 
